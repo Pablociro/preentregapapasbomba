@@ -526,6 +526,13 @@ footer ul li a:hover {
   .detallar-3 ul li a {
     margin: 15px;
   }
+
+         .logo {
+  position: fixed;
+  right: 10%;
+  bottom: 45px;
+}
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -533,6 +540,13 @@ footer ul li a:hover {
     flex-direction: column;
     position: static;
   }
+
+         .logo {
+  position: fixed;
+  right: 10%;
+  bottom: 45px;
+}
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -559,6 +573,13 @@ footer ul li a:hover {
     margin: 20px;
     font-size: 40px;
   }
+
+         .logo {
+  position: fixed;
+  right: 10%;
+  bottom: 45px;
+}
+
 }
 
 @media screen and (max-width: 790px) {
@@ -621,6 +642,12 @@ footer ul li a:hover {
     width: 90%;
     border: #de2b1b 2px solid;
   }
+
+       .logo {
+  position: fixed;
+  right: 10%;
+  bottom: 45px;
+}
 
   .detallar-2 h3 a {
     font-size: 30px;
@@ -689,12 +716,18 @@ footer ul li a:hover {
     font-size: 30px;
   }
 
+
   .input{
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
+    .logo {
+  position: fixed;
+  right: 10%;
+  bottom: 45px;
+}
 
   .promo div {
     width: 90%;
@@ -766,7 +799,8 @@ footer ul li a:hover {
   .detallar-3 ul {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    text-align: center;
+    margin-right: 35px;
   }
 }
 
