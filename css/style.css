@@ -14,6 +14,21 @@ ul {
 body {
   background-color: black;
 }
+main {
+  background-color: rgba(255, 255, 0, 0.881);
+}
+
+h2,
+h3 {
+  font-style: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #de2b1b;
+  font-size: 40px;
+}
+section p {
+  background-color: #de2b1b;
+}
 
 /*----------------------------HEADER---------------------------*/
 header {
@@ -35,26 +50,17 @@ header h1 {
   margin: 20px;
 }
 
-h1 a:hover {
+header h1 a:hover {
   color: yellow;
 }
 
-h1 a {
+header h1 a {
   font-style: "Bebas Neue", cursive;
   font-weight: 900;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #de2b1b;
   text-decoration: none;
   font-size: 50px;
-}
-
-h2,
-h3 {
-  font-style: "Bebas Neue", cursive;
-  font-weight: 400;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #de2b1b;
-  font-size: 40px;
 }
 
 header nav ul {
@@ -96,39 +102,8 @@ header nav ul li a {
 }
 
 /*-----------------------------MAIN-----------------------------*/
-main {
-  background-color: rgba(255, 255, 0, 0.881);
-}
 
-section nav ul {
-  list-style: none;
-  text-align: center;
-  border: #de2b1b solid 2px;
-  background-color: #483c3b;
-}
 
-section nav ul li a {
-  font-size: large;
-  color: #de2b1b;
-  text-decoration: none;
-}
-
-section nav ul li a:hover {
-  color: yellow;
-}
-
-section div img {
-  height: 300px;
-  width: 300px;
-}
-
-section p {
-  background-color: #de2b1b;
-}
-
-section h2 {
-  text-align: center;
-}
 
 /*                                  index                                         */
 .hero {
@@ -237,18 +212,44 @@ section h2 {
   -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
 }
 
-.logo a img {
-  height: 50px;
-  width: 50px;
-}
-
 .logo {
   position: fixed;
   right: 50%;
   bottom: 50px;
 }
 
+.logo a img {
+  height: 50px;
+  width: 50px;
+}
+
 /*                                             menu                                         */
+section nav ul {
+  list-style: none;
+  text-align: center;
+  border: #de2b1b solid 2px;
+  background-color: #483c3b;
+}
+
+section nav ul li a {
+  font-size: large;
+  color: #de2b1b;
+  text-decoration: none;
+}
+
+section nav ul li a:hover {
+  color: yellow;
+}
+
+section div img {
+  height: 300px;
+  width: 300px;
+}
+
+section h2 {
+  text-align: center;
+}
+
 .menu div {
   height: 100%;
   width: 400px;

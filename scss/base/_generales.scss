@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background-color: rgba(255, 255, 0, 0.881);
+}
+
+h2,
+h3 {
+  font-style: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #de2b1b;
+  font-size: 40px;
+}
+
+section p {
+  background-color: #de2b1b;
+}
