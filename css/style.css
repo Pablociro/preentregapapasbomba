@@ -123,7 +123,8 @@ header nav ul li a {
 }
 
 .hero p {
-  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
   font-size: 50px;
   text-align: center;
   border: #483c3b 2px solid;
@@ -224,30 +225,30 @@ header nav ul li a {
 }
 
 /*                                             menu                                         */
-section nav ul {
+.menu-2 h2 {
+  text-align: center;
+}
+
+.menu-2 nav ul {
   list-style: none;
   text-align: center;
   border: #de2b1b solid 2px;
   background-color: #483c3b;
 }
 
-section nav ul li a {
+.menu-2 nav ul li a {
   font-size: large;
   color: #de2b1b;
   text-decoration: none;
 }
 
-section nav ul li a:hover {
+.menu-2 nav ul li a:hover {
   color: yellow;
 }
 
-section div img {
+.menu div img {
   height: 300px;
   width: 300px;
-}
-
-section h2 {
-  text-align: center;
 }
 
 .menu-img {
@@ -375,6 +376,10 @@ footer section div img {
 footer section div ul {
   list-style: none;
   font-size: 20px;
+  color: #c34a36;
+}
+footer section ul li{
+  color: #c34a36;
 }
 
 footer section ul li a {
@@ -444,6 +449,7 @@ footer section div ul li a:hover {
 .detallar-4 h3 {
   margin-right: 20px;
   margin-top: 10px;
+
 }
 
 .detallar-4 h3:hover {

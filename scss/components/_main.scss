@@ -73,77 +73,6 @@ main {
           background-color: #483c3b;
         }
       }
-      div {
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-      }
-      div {
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-      }
-      div {
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-      }
-      div {
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-        label {
-          color: #de2b1b;
-          font-size: 25px;
-        }
-        input {
-          color: #de2b1b;
-          border: #483c3b 2px solid;
-          background-color: #483c3b;
-        }
-      }
     }
 
     textarea {
@@ -199,7 +128,7 @@ main {
   }
 }
 //                                     menu................
-section {
+.menu-2 {
   h2 {
     text-align: center;
   }
@@ -227,7 +156,6 @@ section {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-
   .menu-img {
     height: 100%;
     width: 400px;
@@ -235,132 +163,139 @@ section {
     background-color: #483c3b;
     text-align: center;
     margin: 5px;
-  }
-  // ...........................promociones............................
-
-  .promo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-    -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-    -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-
-    h2 {
-      font-size: 60px;
-    }
-
-    div {
-      margin: 20px;
-      width: 400px;
-      height: 580px;
-      border: 1px black solid;
-      text-align: center;
-      background-color: #483c3b;
-
-      img {
-        width: 100%;
-      }
-
-      h3 {
-        margin: 10px;
-      }
-
-      a {
-        .boton {
-          color: #de2b1b;
-          background-color: #483c3b;
-          padding: 5px 5px 5px 5px;
-          transition: 1s;
-        }
-      }
+    img {
+      height: 300px;
+      width: 300px;
     }
   }
+}
+// ...........................promociones............................
 
-  .promociones {
-    text-align: center;
-    margin: 30px;
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+  -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+  -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+
+  h2 {
     font-size: 60px;
   }
 
-  .grid-galeria {
-    border: #483c3b 2px solid;
-    width: 100%;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 300px;
-    gap: 20px;
+  div {
+    margin: 20px;
+    width: 400px;
+    height: 580px;
+    border: 1px black solid;
+    text-align: center;
+    background-color: #483c3b;
 
-    div {
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-        -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-        -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-      }
+    img {
+      width: 100%;
     }
 
-    .grid-items {
-      position: relative;
+    h3 {
+      margin: 10px;
+    }
 
-      h3 {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: #483c3bd2;
+    a {
+      .boton {
         color: #de2b1b;
-        text-align: center;
+        background-color: #483c3b;
+        padding: 5px 5px 5px 5px;
+        transition: 1s;
       }
-    }
-
-    .curto-items {
-      grid-column: span 2;
-    }
-
-    .sexto-items {
-      grid-row: span 2;
-    }
-
-    .septimo-items {
-      grid-column: span 2;
     }
   }
-  // .......................valesderegalo
-  .contenedor {
-    h2 {
-      text-align: center;
-      background-color: #483c3b;
-      padding: 10px;
+}
+
+.promociones {
+  text-align: center;
+  margin: 30px;
+  font-size: 60px;
+}
+
+.grid-galeria {
+  border: #483c3b 2px solid;
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  gap: 20px;
+
+  div {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+      -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+      -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
     }
-    .contenedor-div {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin: 10px;
-      .contenedor-div-1 {
-        width: 400px;
-        height: 430px;
-        border: 1px black solid;
-        background-color: #483c3b;
-        text-align: center;
-        margin-bottom: 20px;
-        transition: 1s;
-        img {
-          width: 100%;
-          height: 300px;
-        }
-        h3 {
-          margin: 10px;
-        }
+  }
+
+  .grid-items {
+    position: relative;
+
+    h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: #483c3bd2;
+      color: #de2b1b;
+      text-align: center;
+    }
+  }
+
+  .curto-items {
+    grid-column: span 2;
+  }
+
+  .sexto-items {
+    grid-row: span 2;
+  }
+
+  .septimo-items {
+    grid-column: span 2;
+  }
+}
+
+// vales de regalo
+.contenedor {
+  h2 {
+    text-align: center;
+    background-color: #483c3b;
+    padding: 10px;
+  }
+  .contenedor-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    .contenedor-div-1 {
+      width: 400px;
+      height: 430px;
+      border: 1px black solid;
+      background-color: #483c3b;
+      text-align: center;
+      margin-bottom: 20px;
+      transition: 1s;
+      img {
+        width: 100%;
+        height: 300px;
+      }
+      h3 {
+        margin: 10px;
+      }
+      a {
         .boton {
+          transition: 1s;
           color: #de2b1b;
           background-color: rgb(40, 40, 40);
           padding: 5px 5px 5px 5px;
-          transition: 1s;
-          &:hover {
+          :hover {
             color: yellow;
             background-color: #de2b1b;
           }

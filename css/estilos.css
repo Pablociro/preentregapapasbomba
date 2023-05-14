@@ -77,55 +77,6 @@ main p {
       color: #de2b1b;
       border: #483c3b 2px solid;
       background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
-    .hero-1 .formularios form div label {
-      color: #de2b1b;
-      font-size: 25px; }
-    .hero-1 .formularios form div input {
-      color: #de2b1b;
-      border: #483c3b 2px solid;
-      background-color: #483c3b; }
     .hero-1 .formularios textarea {
       border: #483c3b solid 2px;
       background-color: floralwhite;
@@ -163,19 +114,19 @@ main p {
       height: 50px;
       width: 50px; }
 
-section h2 {
+.menu-2 h2 {
   text-align: center; }
 
-section nav ul {
+.menu-2 nav ul {
   list-style: none;
   text-align: center;
   border: #de2b1b solid 2px;
   background-color: #483c3b; }
-  section nav ul li a {
+  .menu-2 nav ul li a {
     font-size: large;
     color: #de2b1b;
     text-decoration: none; }
-    section nav ul li a:hover {
+    .menu-2 nav ul li a:hover {
       color: yellow; }
 
 .menu {
@@ -189,95 +140,103 @@ section nav ul {
     background-color: #483c3b;
     text-align: center;
     margin: 5px; }
-  .menu .promo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .menu .menu-img img {
+      height: 300px;
+      width: 300px; }
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+  -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
+  -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
+  .promo h2 {
+    font-size: 60px; }
+  .promo div {
+    margin: 20px;
+    width: 400px;
+    height: 580px;
+    border: 1px black solid;
+    text-align: center;
+    background-color: #483c3b; }
+    .promo div img {
+      width: 100%; }
+    .promo div h3 {
+      margin: 10px; }
+    .promo div a .boton {
+      color: #de2b1b;
+      background-color: #483c3b;
+      padding: 5px 5px 5px 5px;
+      transition: 1s; }
+
+.promociones {
+  text-align: center;
+  margin: 30px;
+  font-size: 60px; }
+
+.grid-galeria {
+  border: #483c3b 2px solid;
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  gap: 20px; }
+  .grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
     -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
     -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
-    .menu .promo h2 {
-      font-size: 60px; }
-    .menu .promo div {
-      margin: 20px;
-      width: 400px;
-      height: 580px;
-      border: 1px black solid;
-      text-align: center;
-      background-color: #483c3b; }
-      .menu .promo div img {
-        width: 100%; }
-      .menu .promo div h3 {
-        margin: 10px; }
-      .menu .promo div a .boton {
-        color: #de2b1b;
-        background-color: #483c3b;
-        padding: 5px 5px 5px 5px;
-        transition: 1s; }
-  .menu .promociones {
-    text-align: center;
-    margin: 30px;
-    font-size: 60px; }
-  .menu .grid-galeria {
-    border: #483c3b 2px solid;
-    width: 100%;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 300px;
-    gap: 20px; }
-    .menu .grid-galeria div img {
+  .grid-galeria .grid-items {
+    position: relative; }
+    .grid-galeria .grid-items h3 {
+      position: absolute;
+      bottom: 0;
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-      -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
-      -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
-    .menu .grid-galeria .grid-items {
-      position: relative; }
-      .menu .grid-galeria .grid-items h3 {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: #483c3bd2;
-        color: #de2b1b;
-        text-align: center; }
-    .menu .grid-galeria .curto-items {
-      grid-column: span 2; }
-    .menu .grid-galeria .sexto-items {
-      grid-row: span 2; }
-    .menu .grid-galeria .septimo-items {
-      grid-column: span 2; }
-  .menu .contenedor h2 {
-    text-align: center;
+      background-color: #483c3bd2;
+      color: #de2b1b;
+      text-align: center; }
+  .grid-galeria .curto-items {
+    grid-column: span 2; }
+  .grid-galeria .sexto-items {
+    grid-row: span 2; }
+  .grid-galeria .septimo-items {
+    grid-column: span 2; }
+
+.contenedor h2 {
+  text-align: center;
+  background-color: #483c3b;
+  padding: 10px; }
+
+.contenedor .contenedor-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .contenedor .contenedor-div .contenedor-div-1 {
+    width: 400px;
+    height: 430px;
+    border: 1px black solid;
     background-color: #483c3b;
-    padding: 10px; }
-  .menu .contenedor .contenedor-div {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 10px; }
-    .menu .contenedor .contenedor-div .contenedor-div-1 {
-      width: 400px;
-      height: 430px;
-      border: 1px black solid;
-      background-color: #483c3b;
-      text-align: center;
-      margin-bottom: 20px;
-      transition: 1s; }
-      .menu .contenedor .contenedor-div .contenedor-div-1 img {
-        width: 100%;
-        height: 300px; }
-      .menu .contenedor .contenedor-div .contenedor-div-1 h3 {
-        margin: 10px; }
-      .menu .contenedor .contenedor-div .contenedor-div-1 .boton {
-        color: #de2b1b;
-        background-color: #282828;
-        padding: 5px 5px 5px 5px;
-        transition: 1s; }
-        .menu .contenedor .contenedor-div .contenedor-div-1 .boton:hover {
-          color: yellow;
-          background-color: #de2b1b; }
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 1s; }
+    .contenedor .contenedor-div .contenedor-div-1 img {
+      width: 100%;
+      height: 300px; }
+    .contenedor .contenedor-div .contenedor-div-1 h3 {
+      margin: 10px; }
+    .contenedor .contenedor-div .contenedor-div-1 a .boton {
+      transition: 1s;
+      color: #de2b1b;
+      background-color: #282828;
+      padding: 5px 5px 5px 5px; }
+      .contenedor .contenedor-div .contenedor-div-1 a .boton :hover {
+        color: yellow;
+        background-color: #de2b1b; }
 
 footer .detallar {
   width: 100%;
@@ -322,10 +281,12 @@ footer footer {
   footer footer section div ul {
     list-style: none;
     font-size: 20px; }
-    footer footer section div ul li a {
-      text-decoration: none;
-      color: #c34a36;
-      font-size: 20px; }
-    footer footer section div ul li img {
-      width: 50px;
-      height: 50px; }
+    footer footer section div ul li {
+      color: #c34a36; }
+      footer footer section div ul li a {
+        text-decoration: none;
+        color: #c34a36;
+        font-size: 20px; }
+      footer footer section div ul li img {
+        width: 50px;
+        height: 50px; }
