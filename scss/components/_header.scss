@@ -1,8 +1,49 @@
 header {
+  background-color: black;
+  top: 0px;
+  border: #de2b1b 2px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  position: sticky;
+  z-index: 10;
   h1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
     a {
+      font-style: "Bebas Neue", cursive;
+      font-weight: 900;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #de2b1b;
+      text-decoration: none;
+      font-size: 50px;
+      &:hover {
+        color: yellow;
+      }
     }
   }
   .navbar {
+    .container-fluid {
+      .navbar-brand {
+        color: #c34a36;
+      }
+      .navbar-toggler {
+        .navbar-togller-icon {
+          background-color: #de2b1b;
+        }
+      }
+    }
+    .collapse {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #c34a36;
+          }
+        }
+      }
+    }
   }
 }
