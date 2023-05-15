@@ -321,3 +321,105 @@ footer footer {
       footer footer section div ul li img {
         width: 50px;
         height: 50px; }
+
+@media screen and (max-width: 1370px) {
+  .logo {
+    position: fixed;
+    right: 10%;
+    bottom: 44px; }
+  .detallar {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    flex-direction: column;
+    text-align: center; }
+    .detallar .detallar-3 ul {
+      display: flex;
+      justify-content: center; }
+    .detallar .detallar-3 ul li a {
+      margin: 15px; } }
+
+@media screen and (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    position: static; }
+  .logo {
+    position: fixed;
+    right: 10%;
+    bottom: 45px; } }
+
+@media screen and (max-width: 1000px) {
+  .hero p {
+    font-size: 30px; }
+  .promociones {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px; }
+  .logo {
+    position: fixed;
+    right: 10%;
+    bottom: 45px; }
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px; }
+    .grid-galeria .grid-items {
+      grid-column: span 1;
+      grid-row: span 1; }
+    .grid-galeria .noveno-item {
+      grid-column: span 2; } }
+
+@media screen and (max-width: 790px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center; }
+  header nav ul li {
+    margin: 0; }
+  .hero h2 {
+    font-size: 30px; }
+  .hero-1 h2 {
+    padding: 5px;
+    font-size: 40px; }
+    .hero-1 h2 .hero-1 h3 {
+      font-size: 30px; }
+  .formularios form div label {
+    color: #de2b1b;
+    font-size: 20px; }
+    .formularios form div label .imput textarea {
+      border: #483c3b solid 2px;
+      background-color: floralwhite;
+      font-weight: 300; }
+  .formularios p {
+    color: black;
+    font-size: 25px; }
+  .contenedor h2 {
+    font-size: 30px; }
+    .contenedor h2 .contenedor-div-1 {
+      width: 90%;
+      height: auto;
+      border: 1px black solid;
+      background-color: #483c3b;
+      text-align: center;
+      margin-bottom: 10px;
+      transition: 1s; }
+  .ubicacion h2 {
+    text-align: center; }
+    .ubicacion h2 .ubicacion iframe {
+      width: 90%;
+      border: #de2b1b 2px solid; }
+  .logo {
+    position: fixed;
+    right: 10%;
+    bottom: 45px; }
+  .detallar-2 h3 a {
+    font-size: 30px;
+    margin: 10px; }
+  .detallar-3 ul {
+    margin: 10px; }
+    .detallar-3 ul .detallar-3 ul li {
+      margin: 0px; }
+      .detallar-3 ul .detallar-3 ul li .detallar-3 ul li a {
+        font-size: 20px;
+        margin: 5px; }
+  .detallar-4 h3 {
+    font-size: 30px;
+    margin: 10px; } }
