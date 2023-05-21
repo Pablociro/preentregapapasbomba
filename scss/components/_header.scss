@@ -1,7 +1,7 @@
 header {
   background-color: black;
   top: 0px;
-  border: #de2b1b 2px solid;
+  border: $color-2 2px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,22 +17,22 @@ header {
       font-style: "Bebas Neue", cursive;
       font-weight: 900;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      color: #de2b1b;
+      color: $color-2;
       text-decoration: none;
       font-size: 50px;
       &:hover {
-        color: yellow;
+        color: $color-1;
       }
     }
   }
   .navbar {
     .container-fluid {
       .navbar-brand {
-        color: #c34a36;
+        color: $color-3;
       }
       .navbar-toggler {
         .navbar-togller-icon {
-          background-color: #de2b1b;
+          background-color: $color-2;
         }
       }
     }
@@ -40,7 +40,7 @@ header {
       .navbar-nav {
         .nav-item {
           .nav-link {
-            color: #c34a36;
+            color: $color-3;
           }
         }
       }

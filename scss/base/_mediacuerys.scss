@@ -11,13 +11,16 @@
     border: 2px solid black;
     flex-direction: column;
     text-align: center;
-    .detallar-3 ul {
-      display: flex;
-      justify-content: center;
-    }
-
-    .detallar-3 ul li a {
-      margin: 15px;
+    .detallar-3 {
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          a {
+            margin: 15px;
+          }
+        }
+      }
     }
   }
 }
@@ -148,5 +151,143 @@
   .detallar-4 h3 {
     font-size: 30px;
     margin: 10px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .hero {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .hero-1 {
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+  }
+
+  .formularios {
+    h2 {
+      font-size: 30px;
+    }
+    form {
+      h3 {
+        font-size: 30px;
+      }
+      .imput {
+        position: fixed;
+        right: 10%;
+        bottom: 45px;
+      }
+    }
+    p {
+      display: none;
+    }
+  }
+  .ubicacion {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .logo {
+    position: fixed;
+    right: 10%;
+    bottom: 45px;
+  }
+}
+.promo {
+  h2 {
+    font-size: 30px;
+  }
+  div {
+    width: 90%;
+    height: 200px border 1px black solid;
+    text-align: center;
+    background-color: #483c3b;
+    font-size: 20px;
+    h3 {
+      font-size: 30px;
+    }
+    a {
+      .boton {
+        color: #de2b1b;
+        background-color: #483c3b;
+        padding: 0;
+      }
+    }
+  }
+  .promociones {
+    display: none;
+  }
+  .promociones-1 {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #483c3b;
+  }
+
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
+  .grid-galeria .grid-items {
+    grid-template-columns: 1fr;
+  }
+  .grid-galeria .grid-items .grid-items {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .grid-galeria .grid-items .grid-items h3 {
+    font-size: 20px;
+  }
+
+  .contenedor {
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    .contenedor-div-1 a {
+      font-size: 15px;
+      padding: 0;
+    }
+  }
+
+  header h1 a {
+    font-size: 35px;
+  }
+
+  .detallar {
+    ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-right: 35px;
+    }
+    li {
+      margin: 0;
+    }
+    a {
+      font-size: 20px;
+    }
+  }
+  .detallar-2 h3 a {
+    font-size: 30px;
+  }
+  .detallar-4 h3 {
+    font-size: 30px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .promociones-1 {
+    display: none;
   }
 }
