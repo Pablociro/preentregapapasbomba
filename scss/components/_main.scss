@@ -45,7 +45,7 @@
 
   iframe {
     width: 80%;
-    border: #483c3b solid 2px;
+    border: $color-4 solid 2px;
     box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
     -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
     -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
@@ -66,7 +66,7 @@
       input {
         color: $color-2;
         border: $color-4 2px solid;
-        background-color: #483c3b;
+        background-color: $color-4;
       }
     }
   }
@@ -91,7 +91,7 @@
   }
 }
 p {
-  color: black;
+  color: $color-7;
   font-size: 30px;
 }
 .ubicacion {
@@ -131,7 +131,7 @@ p {
       list-style: none;
       text-align: center;
       border: $color-2 solid 2px;
-      background-color: #483c3b;
+      background-color: $color-4;
       li {
         a {
           font-size: large;
@@ -147,7 +147,9 @@ p {
 }
 
 .menu {
-  @include flex-1(flex, space-evenly, wrap);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   .menu-img {
     height: 100%;
     width: 400px;
@@ -174,7 +176,7 @@ p {
     margin: 20px;
     width: 100%;
     height: 100%;
-    border: 1px black solid;
+    border: 1px $color-7 solid;
     text-align: center;
     img {
       object-fit: cover;
@@ -187,12 +189,12 @@ p {
     a {
       .boton {
         transition: 1s;
-        color: #de2b1b;
-        background-color: #483c3b;
+        color: $color-2;
+        background-color: $color-4;
         padding: 5px 5px 5px 5px;
         &:hover {
-          color: yellow;
-          background-color: #de2b1b;
+          color: $color-1;
+          background-color: $color-2;
         }
       }
     }
@@ -207,7 +209,7 @@ p {
 }
 
 .grid-galeria {
-  border: #483c3b 2px solid;
+  border: $color-4 2px solid;
   width: 100%;
   margin-top: 30px;
   display: grid;
@@ -229,7 +231,7 @@ p {
       bottom: 0;
       width: 100%;
       background-color: #483c3bd2;
-      color: #de2b1b;
+      color: $color-2;
       text-align: center;
     }
   }
@@ -252,12 +254,11 @@ p {
     padding: 10px;
   }
   .contenedor-div {
-    @include flex-1(flex, space-around, wrap);
-    margin: 10px;
+    @include flex-1(flex, space-around, wrap) margin: 10px;
     .contenedor-div-1 {
       width: 400px;
       height: 430px;
-      border: 1px black solid;
+      border: 1px $color-7 solid;
       background-color: $color-4;
       text-align: center;
       margin-bottom: 20px;
@@ -276,7 +277,7 @@ p {
           background-color: rgb(40, 40, 40);
           padding: 5px 5px 5px 5px;
           :hover {
-            color: yellow;
+            color: $color-1;
             background-color: $color-2;
           }
         }

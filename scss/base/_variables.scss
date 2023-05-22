@@ -14,15 +14,6 @@ $color-9: floralwhite;
   justify-content: space-between;
   align-items: center;
 }
-header {
-  background-color: black;
-  top: 0px;
-  border: #de2b1b 2px solid;
-  margin-bottom: 25px;
-  position: sticky;
-  z-index: 10;
-  @extend %flex;
-}
 
 @mixin flex($flex, $direction, $aling) {
   display: $flex;
@@ -33,7 +24,7 @@ header {
 @mixin flex-1($flex, $justify, $wrap) {
   display: $flex;
   justify-content: $justify;
-  wrap: $wrap;
+  flex-wrap: $wrap;
 }
 @mixin flex-2($flex, $justify, $aling) {
   display: $flex;
