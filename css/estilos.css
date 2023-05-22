@@ -38,11 +38,24 @@ section p {
         font-size: 20px; }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+header {
+  background-color: black;
+  top: 0px;
+  border: #de2b1b 2px solid;
+  margin-bottom: 25px;
+  position: sticky;
+  z-index: 10; }
+
+header {
   background-color: black;
   top: 0px;
   border: #de2b1b 2px solid;
   display: flex;
-  justify-content: space-between;
+  flex-direction: space-between;
   align-items: center;
   margin-bottom: 25px;
   position: sticky;
@@ -180,7 +193,7 @@ p {
 .menu {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap; }
+  wrap: wrap; }
   .menu .menu-img {
     height: 100%;
     width: 400px;
@@ -203,11 +216,12 @@ p {
     font-size: 60px; }
   .promo div {
     margin: 20px;
-    width: 400px;
-    height: 620px;
+    width: 100%;
+    height: 100%;
     border: 1px black solid;
     text-align: center; }
     .promo div img {
+      object-fit: cover;
       width: 50%;
       height: 50%; }
     .promo div h3 {
@@ -265,7 +279,7 @@ p {
 .contenedor .contenedor-div {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  wrap: wrap;
   margin: 10px; }
   .contenedor .contenedor-div .contenedor-div-1 {
     width: 400px;
@@ -309,7 +323,8 @@ p {
   .antesdetallar .detallar .detallar-3 ul {
     display: flex;
     justify-content: space-around;
-    margin-top: 15px; }
+    margin-top: 15px;
+    height: 100%; }
     .antesdetallar .detallar .detallar-3 ul li {
       margin: 15px; }
       .antesdetallar .detallar .detallar-3 ul li ahover {
@@ -346,16 +361,16 @@ p {
     position: fixed;
     right: 10%;
     bottom: 44px; }
-  .detallar {
+  .antesdetallar .detallar {
     width: 100%;
     height: 100%;
     border: 2px solid black;
     flex-direction: column;
     text-align: center; }
-    .detallar .detallar-3 ul {
+    .antesdetallar .detallar .detallar-3 ul {
       display: flex;
       justify-content: center; }
-      .detallar .detallar-3 ul li a {
+      .antesdetallar .detallar .detallar-3 ul li a {
         margin: 15px; } }
 
 @media screen and (max-width: 1200px) {
@@ -429,17 +444,17 @@ p {
     position: fixed;
     right: 10%;
     bottom: 45px; }
-  .detallar-2 h3 a {
+  .antesdetallar .detallar .detallar-2 h3 a {
     font-size: 30px;
     margin: 10px; }
-  .detallar-3 ul {
+  .antesdetallar .detallar .detallar-3 ul {
     margin: 10px; }
-    .detallar-3 ul .detallar-3 ul li {
+    .antesdetallar .detallar .detallar-3 ul li {
       margin: 0px; }
-      .detallar-3 ul .detallar-3 ul li .detallar-3 ul li a {
+      .antesdetallar .detallar .detallar-3 ul li a {
         font-size: 20px;
         margin: 5px; }
-  .detallar-4 h3 {
+  .antesdetallar .detallar .detallar-4 div h3 {
     font-size: 30px;
     margin: 10px; } }
 
@@ -496,46 +511,37 @@ p {
 
 .promo .grid-galeria {
   grid-template-columns: 1fr; }
+  .promo .grid-galeria .grid-items {
+    grid-column: span 1;
+    grid-row: span 1; }
+    .promo .grid-galeria .grid-items h3 {
+      font-size: 20px; }
 
-.promo .grid-galeria .grid-items {
-  grid-template-columns: 1fr; }
-
-.promo .grid-galeria .grid-items .grid-items {
-  grid-column: span 1;
-  grid-row: span 1; }
-
-.promo .grid-galeria .grid-items .grid-items h3 {
-  font-size: 20px; }
-
-.promo .contenedor h2 {
+.contenedor h2 {
   font-size: 25px; }
 
-.promo .contenedor h3 {
+.contenedor h3 {
   font-size: 25px; }
 
-.promo .contenedor .contenedor-div-1 a {
+.contenedor .contenedor-div-1 a {
   font-size: 15px;
   padding: 0; }
 
-.promo header h1 a {
+header h1 a {
   font-size: 35px; }
 
-.promo .detallar ul {
+.antesdetallar .detallar .detallar-2 h3 a {
+  font-size: 30px; }
+
+.antesdetallar .detallar .detallar-3 ul {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-right: 35px; }
+  .antesdetallar .detallar .detallar-3 ul li {
+    margin: 0; }
 
-.promo .detallar li {
-  margin: 0; }
-
-.promo .detallar a {
-  font-size: 20px; }
-
-.promo .detallar-2 h3 a {
-  font-size: 30px; }
-
-.promo .detallar-4 h3 {
+.antesdetallar .detallar .detallar-4 div h3 {
   font-size: 30px;
   margin: 0; }
 

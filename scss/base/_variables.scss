@@ -6,13 +6,37 @@ $color-4: #483c3b;
 $color-6: rgba(255, 255, 0, 0.881);
 $color-7: black;
 $color-8: rgba(0, 0, 0, 0.75);
+$color-9: floralwhite;
 
-// listas
-$color: yellow, #de2b1b, #c34a36, #483c3b rgba(255, 255, 0, 0.881), black,
-  rgba(0, 0, 0, 0.75);
+// extends
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: black;
+  top: 0px;
+  border: #de2b1b 2px solid;
+  margin-bottom: 25px;
+  position: sticky;
+  z-index: 10;
+  @extend %flex;
+}
 
-$font-size: 12px, 16px, 20px, 30px;
+@mixin flex($flex, $direction, $aling) {
+  display: $flex;
+  flex-direction: $direction;
+  align-items: $aling;
+}
 
-// operaciones
-
-// mapas
+@mixin flex-1($flex, $justify, $wrap) {
+  display: $flex;
+  justify-content: $justify;
+  wrap: $wrap;
+}
+@mixin flex-2($flex, $justify, $aling) {
+  display: $flex;
+  justify-content: $justify;
+  align-items: $aling;
+}
