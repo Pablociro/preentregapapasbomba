@@ -2,7 +2,7 @@ header {
   background-color: black;
   top: 0px;
   border: $color-2 2px solid;
-  @include flex(flex, space-between, center);
+  @include flex-2(flex, space-between, center);
   margin-bottom: 25px;
   position: sticky;
   z-index: 10;

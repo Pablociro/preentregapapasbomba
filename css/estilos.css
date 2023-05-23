@@ -42,7 +42,7 @@ header {
   top: 0px;
   border: #de2b1b 2px solid;
   display: flex;
-  flex-direction: space-between;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
   position: sticky;
