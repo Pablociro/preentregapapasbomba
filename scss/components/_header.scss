@@ -11,6 +11,7 @@ header {
     justify-content: left;
     align-items: center;
     margin: 20px;
+    transition-duration: 3s;
     a {
       font-style: "Bebas Neue", cursive;
       font-weight: 900;
@@ -23,23 +24,23 @@ header {
       }
     }
   }
-  .navbar {
-    .container-fluid {
-      .navbar-brand {
-        color: $color-3;
-      }
-      .navbar-toggler {
-        .navbar-togller-icon {
-          background-color: $color-2;
-        }
+}
+.navbar {
+  .container-fluid {
+    .navbar-brand {
+      color: $color-3;
+    }
+    .navbar-toggler {
+      .navbar-togller-icon {
+        background-color: $color-2;
       }
     }
-    .collapse {
-      .navbar-nav {
-        .nav-item {
-          .nav-link {
-            color: $color-3;
-          }
+  }
+  .collapse {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $color-3;
         }
       }
     }
