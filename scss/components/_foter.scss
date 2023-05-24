@@ -5,7 +5,7 @@
     border: 2px solid $color-7;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     .detallar-1 {
       img {
         width: 250px;
@@ -29,12 +29,14 @@
       ul {
         display: flex;
         justify-content: space-around;
-        margin-top: 15px;
         height: 100%;
+        font-size: 20px;
         li {
           margin: 15px;
           a {
+            text-decoration: none;
             transition-duration: 3s;
+            color: $color-3;
             &:hover {
               color: $color-1;
             }
@@ -46,12 +48,12 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      margin-top: 20px;
       div {
         display: flex;
         justify-content: center;
         h3 {
           margin-right: 20px;
-          margin-top: 10px;
           transition-duration: 3s;
           &:hover {
             color: $color-1;
@@ -68,24 +70,6 @@
       a {
         img {
           margin: 15px;
-        }
-      }
-    }
-  }
-}
-.antesdetallar {
-  section {
-    ul {
-      list-style: none;
-      font-size: 20px;
-      li {
-        a {
-          text-decoration: none;
-          color: $color-3;
-          font-size: 20px;
-          &:hover {
-            color: $color-1;
-          }
         }
       }
     }
