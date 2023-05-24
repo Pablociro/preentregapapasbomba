@@ -238,33 +238,32 @@
     right: 10%;
     bottom: 45px;
   }
-}
 
-.promo {
-  h2 {
-    font-size: 30px;
-  }
-
-  div {
-    width: 90%;
-    height: 200px border 1px black solid;
-    text-align: center;
-    background-color: #483c3b;
-    font-size: 20px;
-
-    h3 {
+  .promo {
+    h2 {
       font-size: 30px;
     }
 
-    a {
-      .boton {
-        color: #de2b1b;
-        background-color: #483c3b;
-        padding: 0;
+    div {
+      width: 90%;
+      height: 200px border 1px black solid;
+      text-align: center;
+      background-color: #483c3b;
+      font-size: 20px;
+
+      h3 {
+        font-size: 30px;
+      }
+
+      a {
+        .boton {
+          color: #de2b1b;
+          background-color: #483c3b;
+          padding: 0;
+        }
       }
     }
   }
-
   .promociones {
     display: none;
   }
@@ -288,81 +287,80 @@
       }
     }
   }
-}
 
-.contenedor {
-  h2 {
-    font-size: 25px;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .contenedor-div-1 a {
-    font-size: 15px;
-    padding: 0;
-  }
-}
-
-header h1 a {
-  font-size: 35px;
-}
-
-.antesdetallar {
-  .detallar {
-    .detallar-1 {
-      img {
-      }
+  .contenedor {
+    h2 {
+      font-size: 25px;
     }
 
-    .detallar-2 {
-      h3 {
-        a {
-          font-size: 30px;
+    h3 {
+      font-size: 25px;
+    }
+
+    .contenedor-div-1 a {
+      font-size: 15px;
+      padding: 0;
+    }
+  }
+
+  header h1 a {
+    font-size: 35px;
+  }
+
+  .antesdetallar {
+    .detallar {
+      .detallar-1 {
+        img {
         }
       }
-    }
 
-    .detallar-3 {
-      ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-right: 35px;
+      .detallar-2 {
+        h3 {
+          a {
+            font-size: 30px;
+          }
+        }
+      }
 
-        li {
-          margin: 0;
+      .detallar-3 {
+        ul {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin-right: 35px;
+
+          li {
+            margin: 0;
+
+            a {
+            }
+          }
+        }
+      }
+
+      .detallar-4 {
+        div {
+          h3 {
+            font-size: 30px;
+            margin: 0;
+          }
+        }
+
+        div {
+          a {
+            img {
+            }
+          }
 
           a {
-          }
-        }
-      }
-    }
-
-    .detallar-4 {
-      div {
-        h3 {
-          font-size: 30px;
-          margin: 0;
-        }
-      }
-
-      div {
-        a {
-          img {
-          }
-        }
-
-        a {
-          img {
+            img {
+            }
           }
         }
       }
     }
   }
 }
-
 @media screen and (min-width: 460px) {
   .promociones-1 {
     display: none;
