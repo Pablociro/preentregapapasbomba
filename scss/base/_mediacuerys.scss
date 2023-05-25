@@ -5,6 +5,9 @@
     bottom: 44px;
   }
 
+  .promociones {
+    font-size: 50px;
+  }
   .antesdetallar {
     .detallar {
       width: 100%;
@@ -46,12 +49,24 @@
     font-size: 30px;
   }
 
-  .promociones {
+  .promo {
+    h2 {
+      font-size: 60px;
+    }
     text-align: center;
     margin: 20px;
-    font-size: 40px;
+    div {
+      h3 {
+        font-size: 30px;
+        a {
+        }
+      }
+    }
   }
 
+  .promociones {
+    font-size: 40px;
+  }
   .logo {
     position: fixed;
     right: 10%;
@@ -96,6 +111,9 @@
     }
   }
 
+  .promociones {
+    font-size: 30px;
+  }
   .formularios form div label {
     color: #de2b1b;
     font-size: 20px;
@@ -245,14 +263,13 @@
     }
 
     div {
-      width: 90%;
-      height: 200px border 1px black solid;
+      border: 1px black solid;
       text-align: center;
       background-color: #483c3b;
       font-size: 20px;
 
       h3 {
-        font-size: 30px;
+        font-size: 20px;
       }
 
       a {

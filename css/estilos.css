@@ -209,17 +209,18 @@ p {
   -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
   -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
   .promo h2 {
-    font-size: 60px; }
+    font-size: 80px; }
   .promo div {
     margin: 20px;
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 70%;
     border: 1px black solid;
-    text-align: center; }
+    text-align: center;
+    background-color: #483c3b; }
     .promo div img {
       object-fit: cover;
-      width: 50%;
-      height: 50%; }
+      width: 100%;
+      height: 60%; }
     .promo div h3 {
       margin: 10px; }
     .promo div a .boton {
@@ -353,6 +354,8 @@ p {
     position: fixed;
     right: 10%;
     bottom: 44px; }
+  .promociones {
+    font-size: 50px; }
   .antesdetallar .detallar {
     width: 100%;
     height: 100%;
@@ -377,9 +380,14 @@ p {
 @media screen and (max-width: 1000px) {
   .hero p {
     font-size: 30px; }
-  .promociones {
+  .promo {
     text-align: center;
-    margin: 20px;
+    margin: 20px; }
+    .promo h2 {
+      font-size: 60px; }
+    .promo div h3 {
+      font-size: 30px; }
+  .promociones {
     font-size: 40px; }
   .logo {
     position: fixed;
@@ -407,6 +415,8 @@ p {
     font-size: 40px; }
     .hero-1 h2 .hero-1 h3 {
       font-size: 30px; }
+  .promociones {
+    font-size: 30px; }
   .formularios form div label {
     color: #de2b1b;
     font-size: 20px; }
@@ -478,13 +488,12 @@ p {
   .promo h2 {
     font-size: 30px; }
   .promo div {
-    width: 90%;
-    height: 200px border 1px black solid;
+    border: 1px black solid;
     text-align: center;
     background-color: #483c3b;
     font-size: 20px; }
     .promo div h3 {
-      font-size: 30px; }
+      font-size: 20px; }
     .promo div a .boton {
       color: #de2b1b;
       background-color: #483c3b;
