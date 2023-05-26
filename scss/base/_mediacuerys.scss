@@ -48,6 +48,20 @@
   .hero p {
     font-size: 30px;
   }
+  .menu-2 {
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        li {
+          a {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
 
   .promo {
     h2 {

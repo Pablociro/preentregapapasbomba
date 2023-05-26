@@ -178,8 +178,9 @@ p {
     transform: scale(1.5); }
 
 .menu-2 nav ul {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
-  text-align: center;
   border: #de2b1b solid 2px;
   background-color: #483c3b; }
   .menu-2 nav ul li a {
@@ -386,6 +387,12 @@ p {
 @media screen and (max-width: 1000px) {
   .hero p {
     font-size: 30px; }
+  .menu-2 nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .menu-2 nav ul li a {
+      font-size: 40px; }
   .promo {
     text-align: center;
     margin: 20px; }
