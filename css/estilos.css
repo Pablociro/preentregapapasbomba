@@ -172,7 +172,10 @@ p {
     width: 50px; }
 
 .menu-2 h2 {
-  text-align: center; }
+  text-align: center;
+  transition: 3s; }
+  .menu-2 h2:hover {
+    transform: scale(1.5); }
 
 .menu-2 nav ul {
   list-style: none;
@@ -209,7 +212,10 @@ p {
   -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
   -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
   .promo h2 {
-    font-size: 80px; }
+    font-size: 80px;
+    transition: 2s; }
+    .promo h2:hover {
+      transform: rotateX(360deg); }
   .promo div {
     margin: 20px;
     width: 40%;
