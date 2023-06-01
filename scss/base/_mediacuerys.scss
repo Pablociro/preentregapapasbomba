@@ -4,6 +4,16 @@
     right: 10%;
     bottom: 44px;
   }
+  .hero {
+    h2 {
+      font-size: nth($font-size, 4);
+      &:hover {
+        width: 40%;
+        font-size: 260%;
+        background-color: rgba(255, 0, 0, 0.514);
+      }
+    }
+  }
 
   .promociones {
     font-size: 50px;
@@ -36,6 +46,16 @@
     flex-direction: column;
     position: static;
   }
+  .hero {
+    h2 {
+      font-size: nth($font-size, 3);
+      &:hover {
+        width: 70%;
+        font-size: 240%;
+        background-color: rgba(255, 0, 0, 0.514);
+      }
+    }
+  }
 
   .logo {
     position: fixed;
@@ -45,6 +65,16 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .hero {
+    h2 {
+      font-size: nth($font-size, 3);
+      &:hover {
+        width: 70%;
+        font-size: 220%;
+        background-color: rgba(255, 0, 0, 0.514);
+      }
+    }
+  }
   .hero p {
     font-size: 30px;
   }
@@ -112,8 +142,15 @@
     margin: 0;
   }
 
-  .hero h2 {
-    font-size: 30px;
+  .hero {
+    h2 {
+      font-size: nth($font-size, 2);
+      &:hover {
+        width: 70%;
+        font-size: 160%;
+        background-color: rgba(255, 0, 0, 0.514);
+      }
+    }
   }
 
   .hero-1 h2 {
@@ -219,7 +256,12 @@
 @media screen and (max-width: 490px) {
   .hero {
     h2 {
-      font-size: 20px;
+      font-size: nth($font-size, 2);
+      &:hover {
+        width: 70%;
+        font-size: 130%;
+        background-color: rgba(255, 0, 0, 0.514);
+      }
     }
 
     p {

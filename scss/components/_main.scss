@@ -11,8 +11,8 @@
     text-align: center;
     transition-duration: 3s;
     &:hover {
-      width: 1100px;
-      font-size: 90px;
+      width: 40%;
+      font-size: 300%;
       background-color: rgba(255, 0, 0, 0.514);
     }
   }
@@ -62,16 +62,24 @@
 .formularios {
   text-align: center;
   h2 {
+    border: $color-2 solid 2px;
+    padding: 10px;
+    margin: 10px;
   }
   form {
+    border: $color-2 solid 2px;
+    margin: 10px;
     div {
       label {
+        padding: 5px;
+        margin: 5px;
+        border: $color-2 2px solid;
         color: $color-2;
-        font-size: 25px;
+        font-size: 20px;
       }
       input {
         color: $color-2;
-        border: $color-4 2px solid;
+        border: $color-2 2px solid;
         background-color: $color-4;
       }
     }
@@ -146,7 +154,7 @@ p {
       background-color: $color-4;
       li {
         a {
-          font-size: 50px;
+          font-size: 30px;
           color: $color-2;
           text-decoration: none;
           &:hover {
@@ -175,6 +183,11 @@ p {
     }
   }
 }
+.menu-2 {
+  h2 {
+    font-size: 40px;
+  }
+}
 // ...........................promociones............................
 .promo {
   @include flex(flex, column, center);
@@ -182,7 +195,11 @@ p {
   -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
   -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
   h2 {
-    font-size: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: $color-2 2px solid;
+    background-color: $color-4;
+    font-size: 40px;
     transition: 2s;
     &:hover {
       transform: rotateX(360deg);
@@ -209,6 +226,7 @@ p {
         color: $color-2;
         background-color: $color-4;
         padding: 5px 5px 5px 5px;
+        margin-bottom: 10px;
         &:hover {
           color: $color-1;
           background-color: $color-2;
@@ -272,7 +290,8 @@ p {
   }
 
   .contenedor-div {
-    @include flex-1(flex, space-around, wrap) margin: 10px;
+    @include flex-1(flex, space-around, wrap);
+    margin: 10px;
     .contenedor-div-1 {
       width: 400px;
       height: 430px;

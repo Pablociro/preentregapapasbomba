@@ -22,7 +22,7 @@ h3 {
   font-weight: 400;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #de2b1b;
-  font-size: 40px; }
+  font-size: 30px; }
 
 section p {
   background-color: #de2b1b; }
@@ -85,8 +85,8 @@ header {
     text-align: center;
     transition-duration: 3s; }
     .hero h2:hover {
-      width: 1100px;
-      font-size: 90px;
+      width: 40%;
+      font-size: 300%;
       background-color: rgba(255, 0, 0, 0.514); }
   .hero img {
     width: 80%;
@@ -124,13 +124,23 @@ header {
 
 .formularios {
   text-align: center; }
-  .formularios form div label {
-    color: #de2b1b;
-    font-size: 25px; }
-  .formularios form div input {
-    color: #de2b1b;
-    border: #483c3b 2px solid;
-    background-color: #483c3b; }
+  .formularios h2 {
+    border: #de2b1b solid 2px;
+    padding: 10px;
+    margin: 10px; }
+  .formularios form {
+    border: #de2b1b solid 2px;
+    margin: 10px; }
+    .formularios form div label {
+      padding: 5px;
+      margin: 5px;
+      border: #de2b1b 2px solid;
+      color: #de2b1b;
+      font-size: 20px; }
+    .formularios form div input {
+      color: #de2b1b;
+      border: #de2b1b 2px solid;
+      background-color: #483c3b; }
   .formularios textarea {
     border: #483c3b solid 2px;
     background-color: floralwhite;
@@ -185,7 +195,7 @@ p {
   border: #de2b1b solid 2px;
   background-color: #483c3b; }
   .menu-2 nav ul li a {
-    font-size: 50px;
+    font-size: 30px;
     color: #de2b1b;
     text-decoration: none; }
     .menu-2 nav ul li a:hover {
@@ -206,6 +216,9 @@ p {
       height: 300px;
       width: 300px; }
 
+.menu-2 h2 {
+  font-size: 40px; }
+
 .promo {
   display: flex;
   flex-direction: column;
@@ -214,7 +227,11 @@ p {
   -webkit-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75);
   -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
   .promo h2 {
-    font-size: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: #de2b1b 2px solid;
+    background-color: #483c3b;
+    font-size: 40px;
     transition: 2s; }
     .promo h2:hover {
       transform: rotateX(360deg); }
@@ -235,7 +252,8 @@ p {
       transition: 1s;
       color: #de2b1b;
       background-color: #483c3b;
-      padding: 5px 5px 5px 5px; }
+      padding: 5px 5px 5px 5px;
+      margin-bottom: 10px; }
       .promo div a .boton:hover {
         color: yellow;
         background-color: #de2b1b; }
@@ -355,6 +373,7 @@ p {
   .antesdetallar .detallar div a img {
     margin: 15px; }
   .antesdetallar .detallar div a img {
+    width: 40px;
     margin: 15px; }
 
 @media screen and (max-width: 1370px) {
@@ -362,6 +381,12 @@ p {
     position: fixed;
     right: 10%;
     bottom: 44px; }
+  .hero h2 {
+    font-size: 40px; }
+    .hero h2:hover {
+      width: 40%;
+      font-size: 260%;
+      background-color: rgba(255, 0, 0, 0.514); }
   .promociones {
     font-size: 50px; }
   .antesdetallar .detallar {
@@ -380,12 +405,24 @@ p {
   header {
     flex-direction: column;
     position: static; }
+  .hero h2 {
+    font-size: 30px; }
+    .hero h2:hover {
+      width: 70%;
+      font-size: 240%;
+      background-color: rgba(255, 0, 0, 0.514); }
   .logo {
     position: fixed;
     right: 10%;
     bottom: 45px; } }
 
 @media screen and (max-width: 1000px) {
+  .hero h2 {
+    font-size: 30px; }
+    .hero h2:hover {
+      width: 70%;
+      font-size: 220%;
+      background-color: rgba(255, 0, 0, 0.514); }
   .hero p {
     font-size: 30px; }
   .menu-2 nav ul {
@@ -423,7 +460,11 @@ p {
   header nav ul li {
     margin: 0; }
   .hero h2 {
-    font-size: 30px; }
+    font-size: 20px; }
+    .hero h2:hover {
+      width: 70%;
+      font-size: 160%;
+      background-color: rgba(255, 0, 0, 0.514); }
   .hero-1 h2 {
     padding: 5px;
     font-size: 40px; }
@@ -477,6 +518,10 @@ p {
 @media screen and (max-width: 490px) {
   .hero h2 {
     font-size: 20px; }
+    .hero h2:hover {
+      width: 70%;
+      font-size: 130%;
+      background-color: rgba(255, 0, 0, 0.514); }
   .hero p {
     font-size: 15px; }
   .hero-1 h2 {
