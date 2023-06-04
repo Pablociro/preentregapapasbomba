@@ -60,24 +60,26 @@
 
 // ---------------------------------------contacto
 .formularios {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   h2 {
-    border: $color-2 solid 2px;
-    padding: 10px;
-    margin: 10px;
   }
-  form {
+  .formularios-1 {
+    width: 80%;
+    text-align: center;
     border: $color-2 solid 2px;
     margin: 10px;
     div {
       label {
+        width: 90%;
         padding: 5px;
-        margin: 5px;
+        margin: 10px;
         border: $color-2 2px solid;
         color: $color-2;
         font-size: 20px;
       }
       input {
+        width: 90%;
         color: $color-2;
         border: $color-2 2px solid;
         background-color: $color-4;
@@ -86,6 +88,7 @@
   }
 
   textarea {
+    width: 100%;
     border: $color-4 solid 2px;
     background-color: floralwhite;
     font-weight: 900;
@@ -104,11 +107,13 @@
     }
   }
 }
+
 p {
   color: $color-7;
   font-size: nth($font-size, 3);
   padding: 20px;
 }
+
 .ubicacion {
   @include flex(flex, column, center);
   padding: 10px;

@@ -81,15 +81,22 @@
     <!-- --------------------------------------main----------------------------------------- -->
     <main>
       <section class="formularios">
-        <h2>¡REGISTRATE!</h2>
-        <form action="" method="post" enctype="">
+        <form class="formularios-1" action="" method="post" enctype="">
+          <h2>¡REGISTRATE!</h2>
           <div>
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+            <input
+              class="orden"
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre"
+            />
           </div>
           <div>
             <label for="apellido">Apellido</label>
             <input
+              class="orden"
               type="text"
               name="apellido"
               id="apellido"
@@ -99,6 +106,7 @@
           <div>
             <label for="email">Email</label>
             <input
+              class="orden"
               type="email"
               name="email"
               id="email"
@@ -108,6 +116,7 @@
           <div>
             <label for="password">Contraseña</label>
             <input
+              class="orden"
               type="password"
               name="password"
               id="password"
@@ -117,15 +126,15 @@
           <h3>Que te gustaria pedir?</h3>
           <div class="input">
             <label for="papas">Papas</label>
-            <input type="radio" name="comida" />
+            <input class="orden" type="radio" name="comida" />
             <label for="milanesas">Milanesas</label>
-            <input type="radio" name="comida" />
+            <input class="orden" type="radio" name="comida" />
             <label for="Pizzas">Pizzas</label>
-            <input type="radio" name="comida" />
+            <input class="orden" type="radio" name="comida" />
             <label for="empanadas">Empanadas</label>
-            <input type="radio" name="comida" />
+            <input class="orden" type="radio" name="comida" />
           </div>
-          <h3>Escribinos un comentario</h3>
+          <h3>Reservar pedido</h3>
           <textarea
             name="id
           "
@@ -139,6 +148,8 @@
             <input type="reset" />
           </div>
         </form>
+      </section>
+      <section>
         <p>
           ¡Gracias por tu apoyo! Diseñamos esta aplicación para servir mejor a
           nuestros clientes leales. Sabemos que con el apoyo de nuestra

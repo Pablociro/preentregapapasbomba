@@ -123,25 +123,27 @@ header {
     -moz-caja-sombra: 10px 10px 20px -6px rgba(0, 0, 0, 0.75); }
 
 .formularios {
-  text-align: center; }
-  .formularios h2 {
+  display: flex;
+  justify-content: center; }
+  .formularios .formularios-1 {
+    width: 80%;
+    text-align: center;
     border: #de2b1b solid 2px;
-    padding: 10px;
     margin: 10px; }
-  .formularios form {
-    border: #de2b1b solid 2px;
-    margin: 10px; }
-    .formularios form div label {
+    .formularios .formularios-1 div label {
+      width: 90%;
       padding: 5px;
-      margin: 5px;
+      margin: 10px;
       border: #de2b1b 2px solid;
       color: #de2b1b;
       font-size: 20px; }
-    .formularios form div input {
+    .formularios .formularios-1 div input {
+      width: 90%;
       color: #de2b1b;
       border: #de2b1b 2px solid;
       background-color: #483c3b; }
   .formularios textarea {
+    width: 100%;
     border: #483c3b solid 2px;
     background-color: floralwhite;
     font-weight: 900; }
