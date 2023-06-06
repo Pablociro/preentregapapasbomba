@@ -205,6 +205,7 @@ section {
     .menu-2 h2:hover {
       transform: scale(1.5); }
   .menu-2 nav ul {
+    margin: 20px;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -445,12 +446,12 @@ section {
     flex-direction: column;
     text-align: center; }
     .menu-2 nav ul li a {
-      font-size: 40px; }
+      font-size: 20px; }
   .promo {
     text-align: center;
     margin: 20px; }
     .promo h2 {
-      font-size: 60px; }
+      font-size: 30px; }
     .promo div h3 {
       font-size: 30px; }
   .promociones {
@@ -560,7 +561,7 @@ section {
     right: 10%;
     bottom: 45px; }
   .promo h2 {
-    font-size: 30px; }
+    font-size: 20px; }
   .promo div {
     border: 1px black solid;
     text-align: center;
