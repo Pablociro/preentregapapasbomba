@@ -157,6 +157,8 @@ section {
 
 //                                     menu................
 .menu-2 {
+  display: flex;
+  flex-direction: column;
   h2 {
     text-align: center;
     transition: 3s;
@@ -202,11 +204,7 @@ section {
     }
   }
 }
-.menu-2 {
-  h2 {
-    font-size: 40px;
-  }
-}
+
 // ...........................promociones............................
 .promo {
   @include flex(flex, column, center);
