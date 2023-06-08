@@ -352,11 +352,14 @@ section {
       .contenedor .contenedor-div .contenedor-div-1 h3 {
         margin: 10px; }
       .contenedor .contenedor-div .contenedor-div-1 a .boton {
-        transition: 1s;
+        transition: 3s;
         color: #de2b1b;
-        background-color: #282828;
-        padding: 5px 5px 5px 5px; }
-        .contenedor .contenedor-div .contenedor-div-1 a .boton :hover {
+        background-color: #483c3b;
+        padding: 5px 5px 5px 5px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+        .contenedor .contenedor-div .contenedor-div-1 a .boton:hover {
           color: yellow;
           background-color: #de2b1b; }
 
